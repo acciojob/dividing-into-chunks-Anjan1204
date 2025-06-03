@@ -1,16 +1,25 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <title>Divide Array by Max Sum</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+  <div class="container">
+    <h1>Divide Array by Max Sum</h1>
+    <label for="arrayInput">Enter array (comma separated integers):</label>
+    <input type="text" id="arrayInput" placeholder="e.g. 1, 2, 3, 4, 1, 0, 2, 2" />
+    
+    <label for="maxSumInput">Enter maximum sum (n):</label>
+    <input type="number" id="maxSumInput" placeholder="e.g. 5" />
+    
+    <button id="divideBtn">Divide Array</button>
+    
+    <div id="error" class="error"></div>
+    <div id="result" class="result"></div>
+  </div>
 
+  <script src="script.js"></script>
 </body>
-
 </html>

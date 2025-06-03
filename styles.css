@@ -1,1 +1,75 @@
-/*  your css code here. If applicable */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+  margin: 0;
+  padding-top: 40px;
+}
+.container {
+  background: white;
+  padding: 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  width: 350px;
+}
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+label {
+  font-weight: 600;
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 8px;
+  color: #555;
+}
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  outline: none;
+}
+input[type="text"]:focus,
+input[type="number"]:focus {
+  border-color: #007bff;
+}
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #007bff;
+  border: none;
+  color: white;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+button:hover {
+  background-color: #0056b3;
+}
+.result {
+  margin-top: 25px;
+  background: #eef4ff;
+  padding: 15px;
+  border-radius: 5px;
+  min-height: 40px;
+  font-size: 16px;
+  color: #222;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.error {
+  color: #b00020;
+  margin-top: 15px;
+  font-weight: 600;
+}
